@@ -1,0 +1,29 @@
+{
+  "name": "Protocol-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.mjs",
+  "scripts": {
+    "dev": "nodemon server.mjs",
+    "dev-node": "cross-env GENERATE_NODE_PORT='true' nodemon server.mjs"
+  },
+  "keywords": [],
+  "author": "Lirium-Foundation",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "elliptic": "^6.5.5",
+    "express": "^4.19.2",
+    "hex-to-binary": "^1.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.4",
+    "pubnub": "^8.1.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.1.0"
+  }
+}

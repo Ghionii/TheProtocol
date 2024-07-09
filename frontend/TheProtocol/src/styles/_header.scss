@@ -1,0 +1,59 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(
+    rgb(41, 31, 31),
+    rgb(166, 150, 166),
+    rgb(0, 0, 0)
+  );
+  color: rgb(154, 59, 59);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav-h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    rgb(154, 59, 59),
+    rgb(78, 18, 18),
+    rgb(160, 79, 79)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+nav {
+  margin-left: 20px;
+}
+
+.nav-lefty {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.nav-right li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.nav-left li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+a {
+  color: rgb(250, 246, 246);
+  text-decoration: none;
+}
+
+span {
+  margin-right: 6px;
+  color: rgb(195, 165, 165);
+}

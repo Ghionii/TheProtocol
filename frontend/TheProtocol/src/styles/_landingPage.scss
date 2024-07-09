@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  padding: 20px;
+
+  .landing-page,
+  .h3-wrap {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .landing-page {
+    line-height: 1.6; // Adjust the value as needed for space between lines
+
+    // Alternatively, or additionally, you can add margins to specific elements:
+    h1,
+    h2,
+    div {
+      margin-bottom: 20px; // Adjust the value as needed for space between these elements
+    }
+
+    p {
+      font-weight: bold;
+    }
+  }
+
+  .ul-wrapper {
+    list-style-type: none; // Remove default list styling
+    padding: 0; // Remove default padding
+    margin: 0; // Remove default margin
+
+    > li {
+      margin-bottom: 10px; // Space between list items
+
+      > a {
+        color: rgb(12, 11, 11);
+        text-decoration: none; // Optional: remove underline
+        transition: color 0.3s; // Optional: smooth transition
+        display: inline;
+
+        &:hover {
+          color: white;
+        }
+      }
+    }
+
+    // If you want additional space specifically between the <a> tags
+    a {
+      display: block; // Ensure block display to respect vertical margins
+      margin-bottom: 10px; // Add space between <a> tags
+    }
+
+    // Remove bottom margin from the last <a> tag
+    a:last-child {
+      margin-bottom: 0;
+    }
+
+    h4 {
+      font-size: large;
+    }
+  }
+
+  .h3-wrap {
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(139, 131, 139) black;
+  }
+}

@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+button {
+  display: inline-block;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(
+    to right,
+    rgb(226, 112, 112),
+    purple,
+    rgba(0, 0, 0, 0.929)
+  );
+  color: wheat;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+button:hover {
+  background: linear-gradient(
+    to right,
+    rgb(255, 0, 0),
+    rgb(128, 0, 128),
+    rgb(0, 0, 0)
+  );
+}
+button:active {
+  background-color: #000;
+}
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(rgb(69, 1, 1), rgb(128, 0, 128), rgb(0, 0, 0));
+  color: wheat;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.nav-h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  position: absolute;
+  right: 2rem;
+}
+.nav-ul li {
+  display: inline-block;
+  margin-right: 1rem;
+  color: wheat;
+}
+a {
+  color: wheat;
+  text-decoration: none;
+} /*# sourceMappingURL=main.css.map */
